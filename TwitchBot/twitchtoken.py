@@ -3,7 +3,7 @@
 import json 
 import requests 
 
-with open("C:/Users/alele/Documents/Python/Discord Bots/twitch Bot/config.json") as config_file:
+with open("config.json") as config_file:
     config = json.load(config_file)
 
 def get_app_access_token():
